@@ -42,7 +42,6 @@ export default class ShoppingCart {
         });
 
         amountOfProducts = Math.ceil(bulkProducts.length / 3 * 2);
-        console.log('>>>>> ', bulkProducts.indexOf(0));
         totalPrice += amountOfProducts * bulkProducts[0].price;
 
         if(totalPrice >= 500){
